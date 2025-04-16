@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio de Nathan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 220px;
+      height: 100%;
+      background: #111;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      border-right: 2px solid #00ffff;
+    }
+
+    nav h2 {
+      color: #00ffff;
+      margin-bottom: 40px;
+    }
+
+    nav a {
+      color: #aaa;
+      text-decoration: none;
+      margin: 15px 0;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ffff;
+    }
+
+    .content {
+      margin-left: 240px;
+      padding: 40px;
+    }
+
+    section {
+      margin-bottom: 80px;
+    }
+
+    h1, h2 {
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+    }
+
+    .photo-profil {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .custom-section {
+      background: #111;
+      padding: 20px;
+      border-left: 5px solid #ff00ff;
+      margin-top: 20px;
+    }
+
+    ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    .contact a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <img src="images/photo_profil.jpeg" alt="Photo de Nathan" class="photo-profil">
+    <h2>Nathan</h2>
+    <a href="#accueil">Accueil</a>
+    <a href="#a-propos">À propos</a>
+    <a href="#parcours">Mon parcours</a>
+    <a href="#projets">Projets</a>
+    <a href="#original">Ce que j’aime coder la nuit</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="content">
+    <section id="accueil">
+      <h1>Bienvenue sur mon portfolio</h1>
+      <p>Je suis Nathan, passionné par le développement web.</p>
+    </section>
+
+    <section id="a-propos">
+      <h2>À propos</h2>
+      <p>Je suis étudiant à l’Université Nouveau Horizons en première année de licence informatique. Je débute dans le développement web, mais je suis motivé à apprendre et à progresser rapidement.</p>
+    </section>
+
+    <section id="parcours">
+      <h2>Mon parcours</h2>
+
+      <h3>Études</h3>
+      <ul>
+        <li><strong>Université Nouveau Horizons</strong> — L1 Informatique (en cours)</li>
+        <li><strong>Baccalauréat en Sciences</strong> — royal international school of lualaba, 2024</li>
+      </ul>
+
+      <h3>Langues</h3>
+      <ul>
+        <li>Français (courant)</li>
+        <li>Anglais (bon niveau)</li>
+        <li>Lingala (langue maternelle)</li>
+        <li>Swahili (intermédiaire)</li>
+      </ul>
+
+      <h3>Compétences techniques</h3>
+      <ul>
+        <li>HTML, CSS (bases solides)</li>
+        <li>JavaScript (débutant)</li>
+        <li>Git et GitHub (initiation)</li>
+        <li>Pack Office (Word, Excel, PowerPoint)</li>
+      </ul>
+
+      <h3>Centres d’intérêt</h3>
+      <ul>
+        <li>Développement web</li>
+        <li>Apprentissage de nouvelles technologies</li>
+        <li>Musique et montage vidéo</li>
+        <li>Travail en équipe</li>
+      </ul>
+    </section>
+
+    <section id="projets">
+      <h2>Projets</h2>
+      <div class="project">
+        <p><strong>Générateur de citations motivantes</strong> — HTML, CSS, JavaScript</p>
+        <p>Ce projet simple affiche une citation aléatoire à chaque clic sur un bouton. Il montre comment rendre une page interactive avec JavaScript, tout en restant minimaliste et utile.</p>
+      </div>
+    </section>
+
+    <section id="original">
+      <h2>Ce que j’aime coder la nuit</h2>
+      <div class="custom-section">
+        <p>J’aime créer des outils pratiques comme des minuteurs stylés, des générateurs d’idées, ou des designs interactifs. Coder la nuit, c’est mon moment préféré : calme, idées lumineuses et inspiration libre.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email : <a href="mailto:Nathanmukeba95@gmail.com">Nathanmukeba95@gmail.com</a></p>
+      <p>Téléphone : <a href="tel:+243818799440">+243 818 799 440</a></p>
+    </section>
+  </div>
+
+</body>
+</html>
